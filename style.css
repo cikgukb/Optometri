@@ -61,10 +61,19 @@ nav {
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 700;
-    color: var(--secondary);
-    letter-spacing: 2px;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: none;
+    /* Optimo instead of OPTIMO */
+}
+
+.logo svg {
+    flex-shrink: 0;
 }
 
 .nav-links {
