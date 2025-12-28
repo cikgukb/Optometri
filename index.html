@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimetri - Penglihatan Jelas, Hidup Berkualiti</title>
+    <meta name="description" content="Pakar kesihatan mata anda. Dapatkan pemeriksaan mata profesional dan bingkai cermin mata terkini.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">OPTIMETRI</div>
+            <ul class="nav-links">
+                <li><a href="#home">Utama</a></li>
+                <li><a href="#services">Perkhidmatan</a></li>
+                <li><a href="#contact">Hubungi</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="fade-in">Lihat Dunia Dengan Lebih <span class="highlight">Jelas</span></h1>
+            <p class="fade-in delay-1">Penyelesaian komprehensif untuk penglihatan anda dengan teknologi terkini dan gaya yang elegan.</p>
+            <div class="hero-btns fade-in delay-2">
+                <a href="#contact" class="btn btn-primary">Tempah Janji Temu</a>
+                <a href="#services" class="btn btn-secondary">Lihat Perkhidmatan</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Perkhidmatan Kami</h2>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="icon">👁️</div>
+                    <h3>Pemeriksaan Mata</h3>
+                    <p>Ujian mata komprehensif menggunakan peralatan moden untuk ketepatan maksimum.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="icon">👓</div>
+                    <h3>Bingkai Eksklusif</h3>
+                    <p>Pelbagai pilihan bingkai cermin mata yang bergaya dan berkualiti tinggi.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="icon">💧</div>
+                    <h3>Kanta Lekap</h3>
+                    <p>Rundingan kanta lekap yang selesa dan selamat untuk kegunaan harian.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-card reveal">
+                <h2>Berminat? Hubungi Kami</h2>
+                <p>Sila isi borang di bawah dan kami akan menghubungi anda sebentar lagi.</p>
+                <form id="interestForm">
+                    <div class="form-group">
+                        <label for="name">Nama Penuh</label>
+                        <input type="text" id="name" placeholder="Masukkan nama anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Nombor Telefon</label>
+                        <input type="tel" id="phone" placeholder="Contoh: 0123456789" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Perkhidmatan Pilihan</label>
+                        <select id="service" required>
+                            <option value="" disabled selected>Pilih perkhidmatan</option>
+                            <option value="Pemeriksaan Mata">Pemeriksaan Mata</option>
+                            <option value="Cermin Mata">Cermin Mata / Bingkai</option>
+                            <option value="Kanta Lekap">Kanta Lekap</option>
+                            <option value="Lain-lain">Lain-lain</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Hantar ke WhatsApp</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Optimetri. Hak Cipta Terpelihara.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
